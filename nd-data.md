@@ -50,7 +50,7 @@ The first object in the list corresponds to the dimension whose index varies mos
 the data bytes.  The second object in the list corresponds to the 2nd most rapidly changing index, and so on.
 In the example above, the data would be traversed in the following way:
 
-```
+```c
 uint8 *ptr = data;
 for (z = 0; z < zsize; z++) {
 	for (y = 0; y < ysize; y++) {
