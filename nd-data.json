@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-03/schema#",
+    "$schema": "http://json-schema.org/schema#",
     "title": "N-dimensional Image Data",
     "description": "Supplies the meta data necessary to interpret N-dimensional image data returned by DVID",
     "type": "object",
