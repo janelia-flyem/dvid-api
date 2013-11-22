@@ -12,28 +12,28 @@ Not all elements below are required.
 
 ```json
 {
-	"axes": [
+	"Axes": [
 		{
-			"label": "X",
-			"resolution": 3.1,
-			"units": "nanometers",
-			"size": 100
+			"Label": "X",
+			"Resolution": 3.1,
+			"Units": "nanometers",
+			"Size": 100
 		},{
-			"label": "Y",
-			"resolution": 3.1,
-			"units": "nanometers",
-			"size": 200
+			"Label": "Y",
+			"Resolution": 3.1,
+			"Units": "nanometers",
+			"Size": 200
 		},{
-			"label": "Z",
-			"resolution": 40,
-			"units": "nanometers",
-			"size": 400
+			"Label": "Z",
+			"Resolution": 40,
+			"Units": "nanometers",
+			"Size": 400
 		}
 	],
-	"values": [
+	"Values": [
 		{
-			"type": "uint8",
-			"label": "intensity"
+			"DataType": "uint8",
+			"Label": "intensity"
 		}
 	]
 }
@@ -41,7 +41,7 @@ Not all elements below are required.
 
 ## Description of object
 
-### "axes"
+### "Axes"
 
 #### Description
 
@@ -64,18 +64,18 @@ for (z = 0; z < zsize; z++) {
 
 #### Objects
 
-The "axes" value is a list where each element of the list is an object with the following 
+The "Axes" value is a list where each element of the list is an object with the following 
 name/value pairs:
 
-##### label (string, required)
+##### Label (string, required)
 
 What to call this dimension.
 
-##### resolution (number, required)
+##### Resolution (number, required)
 
 The length of a voxel in this dimension.
 
-##### units (string, required)
+##### Units (string, required)
 
 The units of length of a voxel in this dimension.  Valid values are:
 
@@ -87,12 +87,12 @@ This list will be updated depending on required support by servers and clients.
 The larger we make this list, the more code is required to interconvert between the 
 resolutions of arbitrary units.
 
-##### size (number, required)
+##### Size (number, required)
 
 The span of the image (i.e., the number of voxels) in this dimension.
 
 
-### "values"
+### "Values"
 
 #### Description
 
@@ -104,7 +104,7 @@ would have four values, one for each of the colors and a fourth for the alpha ch
 The "values" value is a list where each element of the list is an object with the following 
 name/value pairs:
 
-##### type (string, required)
+##### DataType (string, required)
 
 The fixed-size data type for the value.  Valid data types are:
 
@@ -119,7 +119,7 @@ The fixed-size data type for the value.  Valid data types are:
 * float32
 * float64
 
-##### label (string, optional)
+##### Label (string, optional)
 
 The name of this value.
 
