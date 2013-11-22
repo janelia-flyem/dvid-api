@@ -19,3 +19,7 @@ The media type for JSONs that follow this schema should be **application/schema+
 JSON schema is language neutral and their a several tools out there that will validate
 a JSON file against the supplied schema.  JSON schema can also transform JSON into
 hypertext by supporting URI links.
+
+There are online schema validators to verify the syntax of the schema
+and to ensure that it correctly defines the allowable JSON:
+[example](http://json-schema-validator.herokuapp.com/).
