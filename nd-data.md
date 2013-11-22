@@ -10,7 +10,7 @@ data (the schema) is specified by an **application/vnd.dvid-nd-data+json** Media
 The following is an example of a valid **application/vnd.dvid-nd-data+json** Media Type.  
 Not all elements below are required.
 
-```
+```json
 {
 	"axes": [
 		{
