@@ -6,7 +6,8 @@ supported by Janelia service APIs.
 ### Contents
 
 This repository contains files with a *.json* in JSON schema format, each describing
-a different supported media type.
+a different supported media type.  There are also *-example.json* that gives an example
+implementation of the JSON.
 
 ### Defining a custom media type
 
